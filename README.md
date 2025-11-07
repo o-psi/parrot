@@ -1,6 +1,6 @@
-# Paru
+# Parrot
 
-Feature packed AUR helper
+An opinionated AUR helper
 
 [![paru](https://img.shields.io/aur/version/paru?color=1793d1&label=paru&logo=arch-linux&style=for-the-badge)](https://aur.archlinux.org/packages/paru/)
 [![paru-bin](https://img.shields.io/aur/version/paru-bin?color=1793d1&label=paru-bin&logo=arch-linux&style=for-the-badge)](https://aur.archlinux.org/packages/paru-bin/)
@@ -16,8 +16,8 @@ Paru is your standard pacman wrapping AUR helper with lots of features and minim
 
 ```
 sudo pacman -S --needed base-devel
-git clone https://aur.archlinux.org/paru.git
-cd paru
+git clone https://aur.archlinux.org/parrot.git
+cd parrot
 makepkg -si
 ```
 
@@ -63,10 +63,6 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 `paru -Bi .` -- Build and install a PKGBUILD in the current directory.
 
-## IRC
-
-Paru now has an IRC. #paru on [Libera Chat](https://libera.chat/). Feel free to join for discussion and help with paru.
-
 ## Debugging
 
-Paru is not an official tool. If paru can't build a package, you should first check if makepkg can successfully build the package. If it can't, then you should report the issue to the maintainer. Otherwise, it is likely an issue with paru and should be reported here.
+Paru is not an official tool. If paru can't build a package, you should first check if makepkg can successfully build the package. If it can't, then you should report the issue to the maintainer. Otherwise, it is likely an issue with parrot and should be reported here.
